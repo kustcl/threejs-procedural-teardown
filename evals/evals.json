@@ -1,0 +1,29 @@
+{
+  "skill_name": "threejs-procedural-teardown",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Use the threejs-procedural-teardown skill to build an interactive 3D exploded view of a Leopard 2A7 main battle tank. I need recognizable hull and turret silhouettes, tracks and road wheels, engine pack, main gun, optics, and crew compartment. Dark technical HUD, cyan accent, clickable parts with specs, part tree, labels, and one offline HTML. Use public references and mark estimates.",
+      "expected_output": "A self-contained HTML with a recognizable Leopard 2 silhouette, 5-9 systems, 20+ interactive parts, explosion layers, dossier, searchable tree, labels, responsive desktop/mobile layout, and screenshots.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "帮我把一台双锅炉意式咖啡机做成深色科技风的交互式 3D 拆解页。要有锅炉、冲煮头、旋转泵、水箱、磨豆机、PID 控制与外壳面板。点击部件沿法线展开并弹出参数说明，右侧部件树支持搜索，桌面和手机都要能用。只使用 Three.js、HTML/CSS/JS，不能加载外部模型或贴图。",
+      "expected_output": "A single offline HTML with procedural espresso machine geometry, boiler/pump/group-head internals, click-to-explode, Chinese component dossier, searchable tree, callouts, mobile layout, and loading/intro sequence.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Create a museum-style interactive cutaway of the human heart for a science exhibit. Use anatomical layers instead of mechanical systems: outer anatomy, coronary vessels, right heart, left heart, valves and conduction system. Soft dark red/blue lighting, clickable chambers and valves, hover names, a detail panel with physiology notes, and a mobile-friendly layout. No external assets.",
+      "expected_output": "A recognizable procedural anatomical heart, anatomically grouped layers, exploded/cutaway behavior, hover tooltips, dossier, callouts, and a responsive standalone page.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "做一个 337 米级航母的交互式 3D 拆解页，但这次别用航母，改成民用的超大型集装箱船。参考我给的俯视图和侧视图，重点还原球鼻艏、货舱、舱盖、绑扎桥、上层建筑、烟囱、螺旋桨和舵。要有完整的爆炸分层、部件树、参数面板和移动端。全部几何和纹理程序化生成。",
+      "expected_output": "A complete procedural container-ship teardown with accurate plan/profile silhouette, cargo-hold and hatch structure, layered explosion, part dossier, labels, responsive HUD, and no external assets.",
+      "files": []
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "threejs-procedural-teardown",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "An agent skill and reference toolkit for building interactive Three.js exploded-view pages for arbitrary objects.",
+  "license": "MIT",
+  "keywords": [
+    "threejs",
+    "teardown",
+    "exploded-view",
+    "procedural",
+    "3d",
+    "agent-skill",
+    "digital-twin"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "check": "node scripts/check-skill.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.1",
+    "playwright": "1.58.2"
+  }
+}
